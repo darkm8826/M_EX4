@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
                 dir.y = -9.8f * 30 * Time.deltaTime;
             }
 
-            cc.Move(dir * Time.deltaTime * 10);
+            cc.Move(dir * Time.deltaTime * 5);
         }
     }
 
